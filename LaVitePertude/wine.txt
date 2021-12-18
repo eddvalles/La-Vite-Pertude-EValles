@@ -1,0 +1,26 @@
+wineID, wineName, wineType, manID, winePrice
+W001, Charles Krug Cabernet Sauvignon 2017, Red, WM001, 31.99
+W002, Larkmead 2016 Napa Valley Cabernet Sauvignon, Red, WM002, 99.99
+W003, Frank Family Carneros, Red, WM003, 34.99
+W004, Tesoro della Regina, White, WM004, 15.99
+W005, Roscato Rosso Dolce, Red, WM005, 10.99
+W006, Roscato Rose Dolce, Rose, WM005, 14.99
+W007, Barefoot Sweet Red Blend, Red, WM006, 8.99
+W008, Barefoot Moscato, White, WM006, 8.99
+W009, Barefoot White Zinfandel, White, WM006, 15.99
+W010, Barefoot Pinot Grigio, White, WM006, 15.99
+W011, Barefoot Red Moscato, Red, WM006, 8.99
+W012, Concha Y Toro Del Diablo Cabernet, Red, WM007, 11.99  
+W013, Concha Y Toro Del Diablo Red Blend, Red, WM007, 11.99
+W014, Concha Y Toro Marques Cabernet, Red, WM007, 19.99
+W015, Concha Y Toro Frontera Pinot Grigio, White, WM007, 7.99
+W016, Gallo Signature Series Cabernet, Red, WM008, 43.99
+W017, Changyu Noble Dragon Red, Red, WM009, 11.99
+W018, Yellow Tail Smooth Red Blend, Red, WM010, 5.47
+W019, Yellow Tail Moscato, White, WM010, 9.99
+W020, Robert Mondavi Private Selection Heritage Red, Red, WM011, 7.99
+W021, Robert Mondavi Napa Valley Cabernet 2018, Red, WM011, 33.99 
+W022, Robert Mondavi To Kalon Reserve Cabernet 2016, Red, WM011, 139.99
+W023, Robert Mondavi To Kalon Reserve Cabernet 2017, Red, WM011, 149.99
+W024, Robert Mondavi Pinot Grigio Private Selection, White, WM011, 14.99
+W025, Robert Mondavi Cabernet Sauvignon 2018, Red, WM011, 42.99

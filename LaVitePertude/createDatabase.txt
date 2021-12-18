@@ -1,0 +1,48 @@
+CREATE TABLE Customer(
+    Customer_ID INTEGER,
+    Customer_First_Name VARCHAR(100),
+    Customer_Last_Name VARCHAR(100),
+    Customer_St_Address VARCHAR(100),
+    Customer_City CHAR(100),
+    Customer_State CHAR(100),
+    Customer_Zip CHAR(20),
+    PRIMARY KEY (Customer_ID)
+);
+CREATE TABLE Customer_Orders(
+	Order_ID INTEGER,
+	Wine_ID CHAR(20),
+    Num_Purchased INT,
+    Purchase_Price DECIMAL(5,2),
+    Customer_ID CHAR(20),
+    PRIMARY KEY(Order_ID)
+);
+CREATE TABLE Wine_Stock(
+    Wine_ID CHAR(20),
+    Wine_On_Hand INT,
+    Minimum_Wine_Required INT,
+    Wine_Sale_Price DECIMAL(5,2),
+    PRIMARY KEY(Wine_ID)
+);
+CREATE TABLE Vendor(
+    Vendor_Name VARCHAR(100),
+    Vendor_ID CHAR(20),
+    Vendor_Address CHAR(200),
+    Vendor_Contact VARCHAR(20),
+    PRIMARY KEY(Vendor_ID)
+);
+CREATE TABLE Purchases(
+	Purchase_ID INTEGER,
+    Wine_ID CHAR(20),
+    Num_Received INT,
+    Purchase_Price DECIMAL(5,2),
+    PRIMARY KEY(Purchase_ID)
+);
+CREATE TABLE Wine(
+	Wine_ID CHAR(20),
+    Wine_Name VARCHAR(100),
+    Wine_Type CHAR(20),
+    Vendor_ID CHAR(20),
+    Wine_Price DECIMAL(5,2),
+    PRIMARY KEY (Wine_ID),
+    FOREIGN KEY (Vendor_ID) REFERENCES Vendor(Vendor_ID)
+);

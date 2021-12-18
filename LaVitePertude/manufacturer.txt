@@ -1,0 +1,12 @@
+manName, manID, manAddress, ManContact
+Charles Krug, WM001, 2800 Main St Saint Helena CA 94574, 707-967-2200
+Larkmead, WM002, 1100 Larkmead Ln Calistogo CA 94515, 707-942-0167
+Frank Family, WM003, 1091 Larkmead Ln Calistoga CA 94515, 707-942-0859
+Tesoro della Regina, WM004, 331 Calle Bastille Milan Italy, 502-903-1142
+Roscato, WM005, 180 Michael Drive Suite 109A Syosset NY 11791, 800-502-9573  
+Barefoot, WM006, 420 Aviation Blvd Suite 106 Santa Rosa CA 95403, 800-750-8828
+Concha Y Toro, WM007, Avenida Nueva Tajamar 481 Torre Norte Piso 15 Santiago Chile, 56-2-476-5000
+Gallo, WM008, 600 Yosemite Blvd Modesto CA 95354 2760, 1-877-687-9463
+Changyu, WM009, 673 Sho-Cho China 20156, 800-965-4102
+Yellow Tail, WM010, 9008 Walabe Ln Melborne Australia 6004, 800-452-0021
+Robert Mondavi, WM011, 78001 Saint Helena Highway Oakville CA 94562, 888-766-6328

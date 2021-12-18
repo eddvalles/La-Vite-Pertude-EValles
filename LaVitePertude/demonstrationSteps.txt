@@ -1,0 +1,185 @@
+NOTE: I created many individual functions to maintain control of my growing programs.
+Although some methods may seem reused, this repetition allowed me to maintain strict control over the
+actions my program is supposed to do when the GUI is interacted with.
+
+~ 2 ~
+CREATE TWO USERS:
+1)
+    -- Eduardo
+    -- Valles
+    -- 2700 Bay Area Blvd
+    -- Houston
+    -- Texas
+    -- 77058
+    (ID is 16)
+    * Prove creation of record by outputting the Customer table *
+
+2)
+    -- Bob
+    -- Bobson
+    -- 315 N Main St
+    -- Houston
+    -- Texas
+    -- 77002
+    (ID is 17)
+    * Prove creation of record by outputting the Customer table *
+
+~ 3 ~
+CREATE THREE PURCHASES USING YOUR NEW USERS:
+1)
+    PURCHASE ONE --
+    -- Customer ID: 16
+    -- Choose a Vendor: Robert Mondavi
+    -- Choose a Wine: Robert Mondavi To Kalon Reserve Cabernet 2017
+    -- Quantity: 3
+    * Prove creation of record by outputting the Customer_Orders table *
+    * Total_Cost field is a calculate field that took the Num_Purchased and multiplied it by the Purchase_Price *
+
+    PURCHASE TWO --
+    -- Customer ID: 16
+    -- Choose a Vendor: Robert Mondavi
+    -- Choose a Wine: Robert Mondavi Private Selection Heritage Red
+    -- Quantity: 7
+
+    * Prove creation of record by outputting the Customer_Orders table *
+    * Total_Cost field is a calculated field that took the Num_Purchased and multiplied it by the Purchase_Price *
+
+    PURCHASE THREE --
+    -- Customer ID: 17
+    -- Choose a Vendor: Larkmead
+    -- Choose a Wine: Larkmead 2016 Napa Valley Cabernet Sauvignon
+    -- Quantity: 4
+
+    * Prove creation of record by outputting the Customer_Orders table *
+    * Total_Cost field is a calculate field that took the Num_Purchased and multiplied it by the Purchase_Price *
+    * Prove removal of items from stock by outputting the Wine_Stock table *
+
+~ 3 ~
+CREATE 3 PURCHASES USING YOUR INVENTORY WINDOW:
+1)
+    * Show the current status of the wine_stock *
+    * Point out your initial purchase of 3, and how there's 16 of W002 left *
+    * Point out your second purchase of 7, and how there's 13 of W020 left *
+    * Point out your third purchase of 4, and how there's 17 of W023 left *
+
+    "We will just be replenishing these purchases, and showing proof in our Wine_Stock and Purchases Table"
+    "I will make the selection in the Storefront as well. As you can see, the price on our Inventory window is
+    20% less than what we sell the bottle for"
+
+    PURCHASE ONE --
+    -- Choose a Vendor: Robert Mondavi
+    -- Choose a Wine: Robert Mondavi To Kalon Reserve Cabernet 2017
+    -- Quantity: 7
+    * Prove creation of record by outputting the Purchases table *
+    * Point out the calculated field named Total_Paid, Num_received * Purchase_Price *
+    * Prove update of record by outputting the Wine_Stock table *
+    * Point out how W023 has now updated to 24 *
+
+    PURCHASE TWO --
+    -- Choose a Vendor: Larkmead
+    -- Choose a Wine: Larkmead 2016 Napa Valley Cabernet Sauvignon
+    -- Quantity: 10
+    * Prove creation of record by outputting the Purchases table *
+    * Prove update of record by outputting the Wine_Stock table *
+    * Point out how W002 now has 26 bottles *
+
+    PURCHASE THREE --
+    "We'll just replenish this one back to 20"
+    -- Choose a Vendor: Robert Mondavi
+    -- Choose a Wine: Robert Mondavi Private Selection Heritage Red
+    -- Quantity: 7
+    * Prove creation of record by outputting the Purchases table *
+    * Prove update of record by outputting the Wine_Stock table *
+    * Point out how W020 now has 20 bottles *
+
+~ 5 ~
+MODIFY THE PRICES OF THE 3 WINES YOU HAVE BEEN WORKING WITH:
+1)
+    * Show the current sale price for your bottles of wine *
+    * Output your Wine_Stock table to prove your prices *
+    * Point out that you limited the wines to display to only the ones you're showing proof of concept *
+
+    * Prove current values by outputting the wine_stock prices *
+
+    UPDATE W002 --
+    -- Pre-Update = 119.99
+
+    UPDATE W020 --
+    -- Pre-Update = 9.59
+
+    UPDATE W023 --
+    -- Pre-Update = 179.99
+
+    * Prove new prices by outputting the wine_stock prices *
+    * Prove there is no change in how much you as the store buy them for *
+    * Prove there is change in how you as the customer buy them for *
+
+PURCHASE 2 MORE ITEMS WITH UPDATED PRICES:
+1)
+    -- Customer ID: 16
+    -- Choose a Vendor: Larkmead
+    -- Choose a Wine: Larkmead 2016 Napa Valley Cabernet Sauvignon
+    -- Quantity: 1
+    -- Wine_ID W002
+
+    -- Customer ID: 16
+    -- Choose a Vendor: Robert Mondavi
+    -- Choose a Wine: Robert Mondavi Private Selection Heritage Red
+
+~ 2 ~
+DELETE 2 CUSTOMERS:
+1)
+    * Prove customers exist by showing the customer table *
+
+    -- Customer_ID: 13
+    -- Customer_ID: 9
+
+    * Prove deletion of records by outputting the Customer table *
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
